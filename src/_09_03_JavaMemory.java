@@ -103,7 +103,10 @@ heap 동적메모리
 *        - 삭제는 따로 없으며 garbage collection에서 처리함.  
 *    
  * @author bit-user
+ * 
  */
+
+
 public class _09_03_JavaMemory {
 
 	/**
@@ -182,10 +185,11 @@ public class _09_03_JavaMemory {
 		int z = 10;
 		System.out.println(z << 2);
 		
-		System.out.println(10 & 40);
-		System.out.println(10 | 40);
-		System.out.println(10 ^ 40);
-		System.out.println(10 >>> 2);
+		System.out.println("10 & 40 :" + (10 & 40));
+		System.out.println("10 | 40 :" + (10 | 40));
+		System.out.println("10 ^ 40 :" + (10 ^ 40));
+		System.out.println("10 >>> 2 :" + (10 >>> 2));
+		System.out.println("~10 :" + (~10 ));
 		
 	}
 }
