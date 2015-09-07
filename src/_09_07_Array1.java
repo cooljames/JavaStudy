@@ -36,7 +36,7 @@ import java.util.Scanner;
  *  //* C언어에서의 배열은 컴파일 시 정해진다. 따라서 바뀌지 않는다.
  *  //* Ctl + Space 하면 사용할 수 있는 것들을 선택해서 코딩할 수 있다.
  */
-public class _09_07_Array {
+public class _09_07_Array1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
