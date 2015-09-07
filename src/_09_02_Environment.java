@@ -1,4 +1,14 @@
-/**
+/** 2015. 09.01
+ * 1. Java Development Kit 
+ * 	JDK 8.0.
+ * 	www.oracle.com 다운로드 함.
+ * 2. IDE(통합개발환경) - Eclipse를 사용함.
+ *  www.eclipse.org에서 다운로드 함.
+ * 3. 환경변수 설정
+ *   - JAVA_HOME(변수이름) : 'C:\Program Files\Java\jdk1.8.0_45'(변수값)
+ * 4. 시스템 변수 설정(자바 경로 추가)
+ *   - path(변수이름)';%JAVA_HOME%\bin' (변수값)을 추가한다.
+ *    
  * @author James 2015 .09 .02
  * 
  * 식별자(id): 다른 구분들과 구별하기 위한 이름
@@ -28,11 +38,15 @@
  *  - 2) out 객체에는 print(개행: 줄바꿈 없음)와 println(개행이 있음)이 있다.
  *  - 3) 매소드 오버로딩 기법으로 여러가지 타입의 매개변수를 인식하는 기능을 가지고 있다.
  */
-public class SecondApp {
-	public static void main(String args[])
+
+
+public class _09_02_Environment {
+	public static void main(String args[]) 
+	{
+	System.out.println ("안녕~ 자바 세상....!");
+
 	// 학번
 
-	{
 		int StudentNo; // 파스칼, pascal
 		int studentNo; // 카멜(낙타) camel
 		int Student_No; // _표기법
@@ -41,6 +55,7 @@ public class SecondApp {
 		// 헝가리안 표기법
 		int iStudentNo;
 		String szName = "## 찰스시몬은 윈도우즈의 슈퍼개발자이다.##";
+		System.out.print(" ");
 		
 		String javaRule1 = " 일반적인 자바의 코딩 규칙  "
 						+ "- 클래스(Class)의 이름은 대문자의 명사로 시작 "
