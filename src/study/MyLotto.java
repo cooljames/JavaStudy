@@ -47,7 +47,7 @@ public class MyLotto {
 
 			}
 
-		System.out.println("감사합니다~항상 대박나시고 또 오세요^^");
+		System.out.println(" 감사합니다~ 대박나시고 또 오세요^^");
 		System.out.println("/***********************/");
 
 		scan.close(); // Object close

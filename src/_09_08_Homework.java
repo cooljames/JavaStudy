@@ -28,8 +28,8 @@ public class _09_08_Homework {
 		int size = 0;
 		int j = scan.nextInt(); // 按眉 积己 
 		
-		for(int i=0; i<3; i++){
-			for(j=0; j<3; j++)
+		for(int i=0; i<4; i++){
+			for(j=0; j<4; j++)
 			{
 			System.out.print("林瞒傍埃: ");
 		   }
