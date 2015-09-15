@@ -47,7 +47,7 @@
 		// 위의 4개의 필드를 적절한 초기화 코드를 작성
 
 
-class Book 
+class Book1 
 {
 	String BookName; 	// 제목 
 	String BookWriter;  // 저자
@@ -60,12 +60,12 @@ class Book
 	 // -  기본생성자를 자동 생성  
 	 // -  오버 로딩 가능 !! 
 	 //==================================================================
-	  Book()  // 매개변수 없는 생성자 :  기본생성자 !!
+	  Book1()  // 매개변수 없는 생성자 :  기본생성자 !!
 	  {
 		  System.out.println("Book()");
 	  }
 	  // 생성자는 객체가 생성될때 자동으로 호출되어 필드의 초기화를 하는 특수 목적의 함수 !! 
-	  Book(String name , String writer, int pages )
+	  Book1(String name , String writer, int pages )
 	  {
 		  BookName = name; 
 		  BookWriter = writer; 
@@ -99,7 +99,7 @@ public class _09_10_Method {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	    Book b1 =  new Book("삼국지", "이문열", 1000 ); 
+	    Book1 b1 =  new Book1("삼국지", "이문열", 1000 ); 
 	    System.out.println( b1.CurrentPage );
 	    b1.Open( 1 ); 
 	    System.out.println( b1.CurrentPage );
