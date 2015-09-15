@@ -28,7 +28,7 @@ public class _09_16_EduHrAdmin {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("//*****************************************//");
-		System.out.println("1.추가  2.삭제  3.급여");
+		System.out.println("    사원관리 프로그램  ver 0.001   1.추가  2.삭제  3.급여");
 		System.out.println("//*****************************************//");
 		Scanner scan = new Scanner(System.in);
 		
