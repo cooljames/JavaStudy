@@ -1,3 +1,4 @@
+package Hr;
 import java.util.Scanner;
 
 /**
