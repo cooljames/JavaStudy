@@ -1,9 +1,9 @@
-class CloneExample implements Cloneable {
+class CloneExam implements Cloneable {
 
  private String name;
  private String designation;
 
- public CloneExample() {
+ public CloneExam() {
  this.setDesignation("Programmer");
  }
  public String getDesignation() {
