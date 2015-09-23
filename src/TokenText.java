@@ -20,11 +20,14 @@ public class TokenText {
 		StringTokenizer st_br = new StringTokenizer(Text_hr_change , "<br>"); 
 		String s = "-";
 		int index_of_hr = Text.indexOf("-");
+		
+		String.valueOf(s);
+		System.out.println(s);
+		
 		while( st_br.hasMoreTokens()) 
 		{
 			System.out.println( st_br.nextToken());
-			if (index_of_hr== -1) 
-					System.out.println("");
+					// System.out.println("");
 			if (st_br.nextToken().length() >= 30)
 				System.out.println("");
 			
@@ -37,8 +40,12 @@ public class TokenText {
 		System.out.println(str.indexOf("<hr>"));
 		System.out.println(str.replaceAll("Bit", ""));
 		*/
-	
+		
+		
+		String.valueOf(s);
+		System.out.println(s);
 	}
+	
 
 }
 
